@@ -82,3 +82,22 @@ Se aplicó una validación temprana para iterar las soluciones. Los hallazgos se
 
 ---
 *Documentación oficial generada por **SysDev Team** para la Evaluación Parcial N° 3 de Ingeniería de Software.*
+
+
+---
+*Refactorización módulo 3 Tránsito y Validación de Menores*
+
+**Módulo 3: Tránsito y Validación de Menores.**
+Descripción General:
+Este módulo del Sistema Cruce Digital Andino (C.D.A.) procesa y autoriza el tránsito transfronterizo de personas menores de edad.
+Su objetivo principal es digitalizar el control legal, asegurando el cumplimiento de las normativas vigentes mediante validaciones automatizadas y exigiendo la documentación notarial cuando corresponde.
+
+Características y Funcionalidades:
+ 1. Gestión de Formularios: Autogestión anticipada para la creación, llenado y almacenamiento seguro de los formularios de tránsito de menores.
+ 2. Validación de Identidad y Relación Legal: Integración con la PDI y Registro Civil para comprobar la vigencia de documentos y evaluar la relación con el o los acompañantes.
+ 3. Tratamiento Seguro de Archivos: Carga de autorizaciones notariales en formato PDF con escaneo perimetral de seguridad y validación de tamaño/integridad.
+ 4. Integración OCR (Inteligencia Artificial): Extracción automatizada de códigos notariales (CVE o QR) desde los documentos cargados para certificar su autenticidad institucional.
+ 5. Casos Especiales: Validación estructurada de resoluciones legales para la salida de menores adoptados.
+
+Diseño e Interfaz de Usuario (UI):
+Implementación de flujos visuales independientes y refactorizados para el Formulario de Entrada de Menores y el Formulario de Salida de Menores, mejorando la precisión y claridad para el pasajero.Diseño de pantallas de retroalimentación para el guardado temporal de datos y confirmación de validación.
