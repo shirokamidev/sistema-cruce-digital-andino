@@ -85,6 +85,22 @@ Se aplicó una validación temprana para iterar las soluciones. Los hallazgos se
 
 
 ---
+## Estado Actual: Versión Final (V.3):
+
+### Refactorización Módulo 3: Tránsito y Validación de Menores
+Este módulo del Sistema Cruce Digital Andino (C.D.A.) procesa y autoriza el tránsito transfronterizo de personas menores de edad. En esta iteración final, se ha optimizado radicalmente la experiencia del usuario (UX) unificando el proceso en una sola vista.
+
+**Principales Actualizaciones de la V.3:**
+1. Consolidación de Interfaz: El usuario completa los datos de identidad del menor, la información del adulto acompañante, carga la autorización notarial (PDF) y recibe el feedback de la solicitud enviada; **todo dentro de una única pantalla**, reduciendo la fricción y el tiempo de trámite.
+2. Validación y Extracción Simultánea: El sistema procesa la carga del archivo PDF y ejecuta la validación OCR para extraer el código notarial sin forzar al pasajero a recargar la página o cambiar de módulo.
+3. Feedback: La confirmación de "Solicitud enviada a la PDI para validación" se despliega dinámicamente en la base de la misma pantalla.
+
+#### Interfaz Unificada del Formulario de Menores (V.3)
+
+
+
+## Historial de Versiones y Evolución del Prototipo Modulo 3: 
+
 *Refactorización módulo 3 Tránsito y Validación de Menores*
 
 **Módulo 3: Tránsito y Validación de Menores.**
